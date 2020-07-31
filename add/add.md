@@ -16,4 +16,6 @@
         >>> roll(6, 6, 6)
         8
 
-*
+* Comprehensions can be used when looping through lists to add results to a new list
+* Zip function is useful to loop through many collections at the same time (stops at length of the shortest list)
+* Sum function is used when you have an unknown amount of variables to add
