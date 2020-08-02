@@ -5,4 +5,4 @@
 
 * Split is very effective together with multiple assignments.
 
-* Whole tuples can be compared with one another
+* Whole tuples can be compared with one another.

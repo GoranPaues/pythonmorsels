@@ -44,7 +44,6 @@ class GetEarliestTests(unittest.TestCase):
         self.assertEqual(get_earliest(newer, older), older)
 
     # To test the Bonus part of this exercise, comment out the following line
-    @unittest.expectedFailure
     def test_many_dates(self):
         d1 = "01/24/2007"
         d2 = "01/21/2008"
