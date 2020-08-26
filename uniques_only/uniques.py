@@ -1,6 +1,13 @@
-def uniques_only(input_list):
-    unique_list = list()
-    for val in input_list:
-        if val not in unique_list:
-            unique_list.append(val)
-    return unique_list
+def uniques_only(input_iterable):
+    hashable_seen = set()
+    seen = list()
+    for val in input_iterable:
+        try:
+            if val not in hashable_seen:
+                hashable_seen.add(val)
+                seen.append(val)
+                yield val
+        except: 
+            if val not in seen:
+                seen.append(val)
+                yield val
